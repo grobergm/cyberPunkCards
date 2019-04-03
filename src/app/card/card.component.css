@@ -1,0 +1,26 @@
+.card {
+  width: 25vw;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.bottomStuff {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-title {
+  text-align: center;
+}
+
+/* .cyberCard {
+  border: solid 1px white;
+  width: 25vw;
+}
+img {
+  transition: transform 1s;
+}
+
+img:hover{
+  transform:scale(1.5);
+} */

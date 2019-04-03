@@ -1,0 +1,15 @@
+{ "cards": [{
+  "title": "Mech punch",
+  "image": "https://cdn.cgmagonline.com/wp-content/uploads/2017/05/an-interview-with-rocketpunch-games-developing-code-hardcore-a-mecha-fan-passion-project-4.jpg",
+  "description": "Use your mech augment to punch your enemy in the face",
+  "cost": 0,
+  "damage": 3
+  },
+  {
+  "title": "Mech kick",
+  "image": "https://cdn.cgmagonline.com/wp-content/uploads/2017/05/an-interview-with-rocketpunch-games-developing-code-hardcore-a-mecha-fan-passion-project-4.jpg",
+  "description": "Use your mech augment to kick your enemy in the face",
+  "cost": 1,
+  "damage": 4
+  }
+  ]}
