@@ -13,7 +13,7 @@ import { FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/d
 export class DeckComponent implements OnInit {
   @Output() clickSender= new EventEmitter();
   cards:FirebaseListObservable<any[]>;
-  hand:FirebaseObjectObservable<any[]>;
+  hand;
   constructor(private router: Router, private cardService: CardService) { }
 
   ngOnInit() {
@@ -23,7 +23,9 @@ export class DeckComponent implements OnInit {
     this.clickSender.emit(cost);
   }
   drawCard() {
-    this.hand=this.cardService.getCardById("1");
-    this.cards.push(this.hand);
+    let random= Math.floor(Math.random()*5);
+    let randomString= random.toString();
+    this.hand=this.cardService.getCardById(randomString);
+    console.log(this.hand);
   }
 }
