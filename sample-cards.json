@@ -7,16 +7,37 @@
   },
   {
   "title": "Mech kick",
-  "image": "https://cdn.cgmagonline.com/wp-content/uploads/2017/05/an-interview-with-rocketpunch-games-developing-code-hardcore-a-mecha-fan-passion-project-4.jpg",
+  "image": "https://db4sgowjqfwig.cloudfront.net/campaigns/38955/assets/362882/Kick.jpg?1409112843",
   "description": "Use your mech augment to kick your enemy in the face",
-  "cost": 1,
+  "cost": -1,
   "damage": 4
   },
   {
   "title": "Lazer Eyes",
   "image": "https://i.imgflip.com/1pzanj.jpg",
   "description": "Blast faces off with your eyes!",
-  "cost": 2,
+  "cost": -2,
   "damage": 5
-  }
+},
+{
+  "title": "Restorative Nanobots",
+  "image": "https://www.azonano.com/images/Article_Images/ImageForArticle_4679(1).jpg",
+  "description": "Heal yerself!",
+  "cost": 3,
+  "damage": 0
+},
+{
+  "title": "Power Sword",
+  "image": "https://wallup.net/wp-content/uploads/2016/04/10/92713-artwork-fantasy_art-mech-robot-sword-science_fiction-748x499.jpg",
+  "description": "Chop of their heads!",
+  "cost": -1,
+  "damage": 7
+},
+{
+  "title": "Last Ditch Effort",
+  "image": "https://pm1.narvii.com/6658/275841c976ccf01cf360c7199ed3878810c46995_hq.jpg",
+  "description": "Big bada boom!",
+  "cost": -5,
+  "damage": 15
+}
   ]}

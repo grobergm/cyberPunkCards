@@ -1,3 +1,4 @@
-<div class="deck">
+<div class="deck" (click)='drawCard()'>
   <app-card *ngFor="let card of cards | async" [data]="card" (click)='sendCost(card.cost)'></app-card>
 </div>
+<!-- <app-card *ngIf='drawn' [data]="hand | async"> -->

@@ -13,4 +13,8 @@ export class CardService {
     return this.cards;
   }
 
+  getCardById(cardId:string){
+    return this.database.object('cards/'+cardId);
+  }
+
 }
