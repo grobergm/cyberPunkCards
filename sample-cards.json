@@ -11,5 +11,12 @@
   "description": "Use your mech augment to kick your enemy in the face",
   "cost": 1,
   "damage": 4
+  },
+  {
+  "title": "Lazer Eyes",
+  "image": "https://i.imgflip.com/1pzanj.jpg",
+  "description": "Blast faces off with your eyes!",
+  "cost": 2,
+  "damage": 5
   }
   ]}
